@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,14 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+/* Format navbar */
+ul li {
+	display: inline;
+}
+
+</style>
 </head>
 <body>
 
@@ -17,13 +26,14 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">guitarTabs</a></li>
-				<li><a href="#">news</a></li>
-				<li><a href="#">reviews</a></li>
-				<li><a href="#">lessons</a></li>
-				<li><a href="#">forums</a></li>
-				<li><a href="#">wiki</a></li>
-				<li><a href="#">personal tab</a></li>
+				<li><a href="#">Forums</a></li>
+				<li><a href="#">Guitar Tabs</a></li>
+				<li><a href="#">Lessons</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Personal Tab</a></li>
+				<li><a href="#">Reviews</a></li>
+				<li><a href="#">Wiki</a></li>
+				
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -33,10 +43,10 @@
 	</nav>
 	<div class="container">
 		<div class="row">
-			<div class="col-5">
-				<div class="dropdown">
-					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-						search for tab using <span class="caret"></span>
+			<div class="col-sm-3">
+				<div class="form-horizontal">
+					<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" style="margin-top: 10px;">
+						Search for Tab Using <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu">
 						<li><a href="#">tabs</a></li>
@@ -49,16 +59,20 @@
 				</div>
 			</div>
 
-			<div class="col-lg-12">
-    			<div class="input-group input-lg form-group-lg">
-    				<input type="text" class="form-control"  placeholder="Search for artists, songs, reviews, anything!">
-      				<span class="input-group-btn">
-        				<button class="btn btn-default btn-lg" type="button">Search</button>
-      				</span>
+			<div class="col-sm-9">
+				<div class="form-horizontal">
+	    			<div class="input-group input-lg form-group-lg">
+	    				<input type="text" class="form-control"  placeholder="Search for artists, songs, reviews, anything!">
+	      				<span class="input-group-btn">
+	        				<button class="btn btn-default btn-lg" type="button">Search</button>
+	      				</span>
+					</div>
 				</div>
+			</div>
 
 		</div>
 		<!--End search bar  -->
+
 		<div class ="row">
 		<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Fresh Tabs</a></li>
@@ -92,8 +106,34 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<div class="container">
+		<div class="col-sm-12">
+			<h1>Tab Pro</h1>
+			<div class="well">
+		        
+		        
+		        <div class="row">
+		        	<div class="col-sm-4">
+		        		<h4>TESTING 1</h4>
+		        	</div>
+
+		        	<div class="col-sm-4">
+		        		<h4>TESTING 2</h4>
+		        	</div>
+		        	
+		        	<div class="col-sm-4">
+		        		<center><h3>LEARN SONGS<br/>EASIER AND FASTER<br/>WITH TAB PRO</h3>
+						<br/>
+						<p style="font-size:110%;">Start your own Tab Pro experience</p>
+						<br/><br/>
+						<button class="btn btn-success">TRY IT TODAY</button>
+						</center>
+		        	</div>
+		        </div>
+		    </div>
+		</div>
+
 		<div class="row">
 			<div class="col-sm-4 spotlight">
 				<h1>Music Reviews:</h1>
@@ -149,4 +189,3 @@
 
 </style>
 </html>
-
