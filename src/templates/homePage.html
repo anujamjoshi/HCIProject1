@@ -41,28 +41,47 @@ ul li {
 			</ul>
 		</div>
 	</nav>
-	<div class="container">
+
+	
+	
+	<div class="container ">
 		<div class="row">
-			<div class="col-sm-2">
+			<div class="col-sm-3 well form-group-lg">
 				<div class="form-horizontal">
-					<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" style="margin-top: 10px;">
-						Search In... <span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu">
-						<li><a href="#">Artists</a></li>
-						<li><a href="#">Lessons</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Reviews</a></li>
-						<li><a href="#">Tabs</a></li>
-						<li><a href="#">Users</a></li>
-						<li><a href="#">Write New...</a><li>
-					</ul>
-				</div>
+	    			<div class="input-group input-lg form-group-lg text-center">
+						<span class="input-group-btn">
+	        				<button class="btn btn-primary btn-lg dropdown-toggle" style="border-radius:5px;" type="button" data-toggle="dropdown">
+								Publish <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">Tab</a></li>
+								<li><a href="#">Review</a></li>
+								<li><a href="#">Article</a></li>
+							</ul>
+	      				</span>
+
+	    				
+					</div>
+				</div> 
 			</div>
 
-			<div class="col-sm-10">
+			<div class="col-sm-9 well">
 				<div class="form-horizontal">
 	    			<div class="input-group input-lg form-group-lg">
+						<span class="input-group-btn">
+	        				<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+								Search for Tab Using <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">Tabs</a></li>
+								<li><a href="#">Artists</a></li>
+								<li><a href="#">News</a></li>
+								<li><a href="#">Reviews</a></li>
+								<li><a href="#">Lessons</a></li>
+								<li><a href="#">Users</a></li>
+							</ul>
+	      				</span>
+
 	    				<input type="text" class="form-control"  placeholder="Search for artists, songs, reviews, anything!">
 	      				<span class="input-group-btn">
 	        				<button class="btn btn-default btn-lg" type="button">Search</button>
@@ -74,48 +93,17 @@ ul li {
 		</div>
 		<!--End search bar  -->
 
-		<div class ="row">
-		<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Fresh Tabs</a></li>
-				<li><a href="#">0-9</a></li>
-				<li><a href="#">A</a></li>
-				<li><a href="#">B</a></li>
-				<li><a href="#">C</a></li>
-				<li><a href="#">D</a></li>
-				<li><a href="#">E</a></li>
-				<li><a href="#">F</a></li>
-				<li><a href="#">G</a></li>
-				<li><a href="#">H</a></li>
-				<li><a href="#">I</a></li>
-				<li><a href="#">J</a></li>
-				<li><a href="#">K</a></li>
-				<li><a href="#">L</a></li>
-				<li><a href="#">M</a></li>
-				<li><a href="#">O</a></li>
-				<li><a href="#">P</a></li>
-				<li><a href="#">Q</a></li>
-				<li><a href="#">R</a></li>
-				<li><a href="#">S</a></li>
-				<li><a href="#">T</a></li>
-				<li><a href="#">U</a></li>
-				<li><a href="#">V</a></li>
-				<li><a href="#">W</a></li>
-				<li><a href="#">X</a></li>
-				<li><a href="#">Y</a></li>
-				<li><a href="#">Z</a></li>
-				<li><a href="#">top 100 tabs</a></li>	
-			</ul>
-		</div>
 	</div>
 
-	<div class="container">
+
+	<div class="container well">
 		<div class="col-sm-12">
 			
 			<div class="col-sm-12 well" style="background-color: #3cb371;">
 				<h1 style="font-color: white;">Tab Pro</h1>
 			</div>
 
-			<div class="well">
+			<div>
 		        <div class="row">
 		        	<div class="col-sm-3">
 		        		<center>
@@ -148,59 +136,98 @@ ul li {
 		        </div>
 		    </div>
 		</div>
+	</div>
 
+	<div class="container well">
 		<div class="row">
 			<div class="col-sm-4 spotlight">
 				<h1>Music Reviews:</h1>
-				<img src="../img/guitarplayer.jpg" alt="guitar player" width="100%">
+				<img src="../img/guitarplayer.jpg" alt="guitar player"">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 				<button class="btn btn-block">More Reviews</button>
 			</div>
 			<div class="col-sm-4 spotlight">
 				<h1>Music News:</h1>
-				<img class="image" src="../img/guitarplayer.jpg" alt="guitar player" width="100%">
+				<img src="../img/guitarplayer.jpg" alt="guitar player">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 				<button class="btn btn-block">More News</button>
 			</div>
 			<div class="col-sm-4 spotlight">
 				<h1>Featured Lessons:</h1>
-				<img src="../img/guitarplayer.jpg" alt="guitar player" width="100%">
+				<img src="../img/guitarplayer.jpg" alt="guitar player">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 				<button class="btn btn-block">More Lessons</button>
 			</div>
 		</div>
-	</div>
-
-
-	<div class="container">
+	
 		<div class="row">
 			<div class="col-sm-4 spotlight">
-				<h1>Featured Tabs:</h1>
-				<img src="../img/guitarplayer.jpg" alt="guitar player" width="100%">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-				<button class="btn btn-block">More Featured Tabs</button>
+				<h1>Top 100 Tabs:</h1>
+				<ul class="nav nav-pills nav-stacked">
+	                <li><a href="#">Katy Perry - Witness</a></li>
+	                <li><a href="#">Type O Negative - Paranoid</a></li>
+	                <li><a href="#">Blink-182 - California</a></li>
+	                <li><a href="#">Placebo - Slacker</a></li>
+	                <li><a href="#">Major Lazer - Leg Over</a></li>
+	                <li><a href="#">Billy Joel - Roberta</a></li>
+	            </ul>
+				<button class="btn btn-block">More Top Tabs</button>
 			</div>
 			<div class="col-sm-4 spotlight">
 				<h1>UG Forum:</h1>
-				<img class="image" src="../img/guitarplayer.jpg" alt="guitar player" width="100%">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				<ul class="nav nav-pills nav-stacked">
+	                <li><a href="#">Preferred Scale Length</a></li>
+	                <li><a href="#">Create A Setup for Recording and Playing Live Through a Comuter Interface</a></li>
+	                <li><a href="#">Guitar Pickups Suggestions</a></li>
+	                <li><a href="#">Speed Development Question</a></li>
+	                <li><a href="#">Which Guitar in your opinion for Death Metal ?</a></li>
+	                <li><a href="#">Is it worth upgrading pickups?</a></li>
+	            </ul>
 				<button class="btn btn-block">View Forum</button>
 			</div>
 			<div class="col-sm-4 spotlight">
-				<h1>UG IQ Top Users:</h1>
-				<img src="../img/guitarplayer.jpg" alt="guitar player" width="100%">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-				<button class="btn btn-block">View Top Users</button>
+				<h1>For Beginners:</h1>
+				<ul class="nav nav-pills nav-stacked">
+	                <li><a href="#">How To Read Tabs</a></li>
+	                <li><a href="#">Understanding Key Signatures</a></li>
+	                <li><a href="#">Know Your Intervals</a></li>
+	                <li><a href="#">6 Exercises To Improve Your Rhythm And Time</a></li>
+	                <li><a href="#">6 Reasons You Should Learn Your Scale Patterns</a></li>
+	                <li><a href="#">How To Avoid Sucking As A Self-Taught Guitarist</a></li>
+	            </ul>
 			</div>
 		</div>
 	</div>
 
+	<footer class="panel-footer">
+		<div class="container-fluid">
+		    <div class="row">
+		        <div class="col-md-6">
+		            <ul>
+		                <li><a href="#">About</a></li>
+		                <li><a href="#">Site rules</a></li>
+		                <li><a href="#">TOS</a></li>
+		                <li><a href="#">Privacy</a></li>
+		                <li><a href="#">Advertise</a></li>
+		                <li><a href="#">Support</a></li>
+		            </ul>
+		        </div>
+		    </div>
+		</div>
+	</footer>
+
 </body>
 <style type="text/css">
 	.spotlight:hover img {
-  opacity: 0.4;
-}
+  		opacity: 0.4;	
+	}
 
+	img {
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 5px;
+		width: 100%;
+	}
 
 </style>
 </html>
